@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign-up-in.css">
+    <title>sign-up-in</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+          <img src="sign-up-in-img/Untitled-removebg-preview 1.png" alt="Logo">
+        </div>
+      </header>
+<br><br><br>
+      
+<main>
+   
+    <div class="forms-container">
+        <form action=""  class="signin-form">
+            <!-- Headings for the form -->
+            <div class="headingsContainer">
+                <h3 class="tilte1">Sign in</h3>
+                <p class="tilte2">We're so excited to see you again!</p>
+            </div>
+    
+            <!-- Main container for all inputs -->
+            <div class="mainContainer">
+                <!-- Username -->
+                <label for="username">Email or Phone Number <span>*</span></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+    
+                <br><br>
+    
+                <!-- Password -->
+                <label for="pswrd">Password <span>*</span></label>
+                <input type="password" placeholder="Enter Password" name="pswrd" required>
+    
+                <!-- sub container for the checkbox and forgot password link -->
+                <div class="subcontainer">
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <p class="forgotpsd"> <a href="#">Forgot Password?</a></p>
+                </div>
+    
+    
+                <!-- Submit button -->
+                <button type="submit">Login</button>
+    
+                <!-- Sign up link -->
+                <p class="register">Need an account?  <a href="#">Register</a></p>
+    
+            </div>
+    
+        </form>
+
+
+        <div class="form-spacing"></div>
+    
+
+
+        <form action=""  class="signup-form">
+            <!-- Headings for the form -->
+            <div class="headingsContainer">
+                <h3 class="tilte1">Create an account</h3>
+                <p class="tilte3">Choose Account Type</p>
+            </div>
+    
+            <!-- Main container for all inputs -->
+            <div class="mainContainer">
+                <!-- email-->
+                <label for="username">Email</label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+                <br><br>
+                   <!-- Username -->
+                   <label for="username">Username</label>
+                   <input type="text" placeholder="Enter Username" name="username" required>
+                <br><br>
+    
+                <!-- Password -->
+                <label for="pswrd">Password</label>
+                <input type="password" placeholder="Enter Password" name="pswrd" required>
+            
+                <!-- Date of Birth -->
+
+                <label for="dob">Date of Birth:</label>
+                <br>
+                <select name="month" id="month">
+                  <option value="" selected disabled>Month</option>
+                  <option value="jan">January</option>
+                  <option value="feb">February</option>
+                  <option value="mar">March</option>
+                  <option value="apr">April</option>
+                  <option value="may">May</option>
+                  <option value="jun">June</option>
+                  <option value="jul">July</option>
+                  <option value="aug">August</option>
+                  <option value="sep">September</option>
+                  <option value="oct">October</option>
+                  <option value="nov">November</option>
+                  <option value="dec">December</option>
+                </select>
+                
+                <select name="day" id="day">
+                  <option value="" selected disabled>Day</option>
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </select>
+                
+                <select name="year" id="year">
+                    <option value="" selected disabled>Year</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    <option value="2000">2000</option>
+                    <!-- Add more years as desired -->
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                    <option value="1996">1996</option>
+                    <option value="1995">1995</option>
+                    <option value="1994">1994</option>
+                    <option value="1993">1993</option>
+                    <option value="1992">1992</option>
+                    <option value="1991">1991</option>
+                    <option value="1990">1990</option>
+                    <option value="1989">1989</option>
+                    <option value="1988">1988</option>
+                    <option value="1987">1987</option>
+                    <option value="1986">1986</option>
+                    <option value="1985">1985</option>
+                    <option value="1984">1984</option>
+                    <option value="1983">1983</option>
+                    <option value="1982">1982</option>
+                    <option value="1981">1981</option>
+                    <option value="1980">1980</option>
+                  </select>
+
+                
+                <!-- sub container for the checkbox and forgot password link -->
+                <div class="subcontainer">
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                    <p class="forgotpsd"> <a href="#">Forgot Password?</a></p>
+                </div>
+    
+    
+                <!-- Submit button -->
+                <button type="submit">Continue</button>
+    
+                <!-- Sign up link -->
+                <p class="register">Need an account?  <a href="#">Register</a></p>
+    
+            </div>
+    
+        </form>
+            
+      </div>
+      <br><br><br><br><br>
+     
+    </main>
+      
+  
+    <footer>
+
+                
+            <div class="top-images">
+              <img src="sign-up-in-img/1.png" alt="image 1">
+              <img src="sign-up-in-img/2.png" alt="image 2">
+              <img src="sign-up-in-img/3.png" alt="image 3">
+              <img src="sign-up-in-img/4.png" alt="image 4">
+            </div>
+            <div class="bottom-images">
+              <img src="sign-up-in-img/5.png" alt="image 5">
+              <img src="sign-up-in-img/6.png" alt="image 6">
+              <img src="sign-up-in-img/7.png" alt="image 7">
+            </div>
+         
+          
+
+    </footer>
+</body>
+</html>
